@@ -1,93 +1,130 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Productifier</title>
-        <link rel="stylesheet" href="css/index.css">
-        <script src="https://kit.fontawesome.com/eaa0d583e2.js" crossorigin="anonymous"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
-        rel="stylesheet">
-        <script src="https://kit.fontawesome.com/eaa0d583e2.js" crossorigin="anonymous"></script>
 
-    </head>
-    <body>
-        <nav class="nav-bar">
-            <div class="nav-bar-div1">
-                <div class="logo-div">
-                    <img src="img/L2-1.png" class="logo">
+<head>
+    <title>Productifier</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://kit.fontawesome.com/eaa0d583e2.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eaa0d583e2.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <div class="nav-bar-div1">
+            <div class="logo-div">
+                <img src="img/L2-1.png" class="logo">
+            </div>
+            <div class="nav-bar-list">
+                <li class="nav-item nav-item--fit" id="fitt">Fitness<i class="fa-solid fa-chevron-down fa-beat-fade"
+                        id="downarrow"></i></li>
+                <a>
+                    <li class="nav-item nav-item--ac">Addiction Controler</li>
+                </a>
+                <a>
+                    <li class="nav-item nav-item--sw">Stop watch</li>
+                </a>
+                <a>
+                    <li class="nav-item nav-item--todo">To Do List</li>
+                </a>
+                <a>
+                    <li class="nav-item nav-item--journal">Journal</li>
+                </a>
+                <li class="nav-item nav-item--ebook" id="boook">E-Books<i class="fa-solid fa-chevron-down fa-beat-fade"
+                        id="downarrow"></i>
+                    <a>
+                <li class="nav-item nav-item--music">Music</li></a>
+                <a>
+                    <li class="nav-item nav-item--tips">Tips</li>
+                </a>
+                <a>
+                    <li class="nav-item nav-item--signup">Signup</li>
+                </a>
+                <a>
+                    <li class="nav-item nav-item--login">Login</li>
+                </a>
+            </div>
+        </div>
+        <div class="nav-bar-div2">
+            <div class="fitness-div">
+                <div class="optn-btn">
+                    <li class="wo-option option"><a>Workout</a></li>
                 </div>
-                <div class="nav-bar-list">
-                      <li class="nav-item nav-item--fit" id="fitt">Fitness<i class="fa-solid fa-chevron-down fa-beat-fade"  id="downarrow"></i></li>
-                      <a><li class="nav-item nav-item--ac">Addiction Controler</li></a>
-                      <a><li class="nav-item nav-item--sw">Stop watch</li></a>
-                      <a><li class="nav-item nav-item--todo">To Do List</li></a>
-                      <a><li class="nav-item nav-item--journal">Journal</li></a>
-                      <li class="nav-item nav-item--ebook" id="boook">E-Books<i class="fa-solid fa-chevron-down fa-beat-fade"  id="downarrow"></i>
-                      <a><li class="nav-item nav-item--music">Music</li></a>
-                      <a><li class="nav-item nav-item--tips">Tips</li></a>
-                      <a><li class="nav-item nav-item--signup">Signup</li></a>
-                      <a><li class="nav-item nav-item--login">Login</li></a>
+                <div class="optn-btn">
+                    <li class="yoga-option option"><a>Yoga</a></li>
                 </div>
             </div>
-            <div class="nav-bar-div2">
-                <div class="fitness-div">
-                    <div class="optn-btn"><li class="wo-option option"><a>Workout</a></li></div>
-                    <div class="optn-btn"><li class="yoga-option option"><a>Yoga</a></li></div>
+            <div class="book-div">
+                <div class="optn-btn">
+                    <li class="devo-option option"><a>Devotional</a></li>
                 </div>
-                <div class="book-div">
-                    <div class="optn-btn"><li class="devo-option option"><a>Devotional</a></li></div>
-                    <div class="optn-btn"><li class="sd-option option"><a>Development</a> </li></div>
+                <div class="optn-btn">
+                    <li class="sd-option option"><a>Development</a> </li>
                 </div>
             </div>
-        </nav>
-        <div class="site-dis">
-            <img src="img/Deadline-pana.png" class="deadline-img">
-            <div class="discription">
-                
-                <div class="detail-dis">
+        </div>
+    </nav>
+    <div class="site-dis">
+        <img src="img/Deadline-pana.png" class="deadline-img">
+        <div class="discription">
+
+            <div class="detail-dis">
                 <p class="logo-head">Productifier</p>
-                    Do you also want to do something but you are wasting your time even when you don't want to?.. I am damn sure you will become very productive by using this app. This app also has some unique features like Addiction Controler which will help you to reduce any kind of addiction. It also has an E-Books section which has novels and books that will change your life completely. As the name of this app is Productifier, this is an app that can amplify your productivity. Login or signup for free
-                </div>
-                <button class="signup-rout">Signup</button>
-                <div class="signup-box">
-                    <div class="green-wall">
-                       <div class="signup-head">
-                        <p class="signup-head-dis">Create account on productifier</p>
-                       </div>
-                       <div class="signup-input">
-                         <div class="signup-welcome">
+                Do you also want to do something but you are wasting your time even when you don't want to?.. I am damn
+                sure you will become very productive by using this app. This app also has some unique features like
+                Addiction Controler which will help you to reduce any kind of addiction. It also has an E-Books section
+                which has novels and books that will change your life completely. As the name of this app is
+                Productifier, this is an app that can amplify your productivity. Login or signup for free
+            </div>
+            <button class="signup-rout">Signup</button>
+            <div class="signup-box">
+                <div class="green-wall">
+                    <div class="signup-head">
+                        <p class="signup-head-dis">Create an account</p>
+                    </div>
+                    <div class="signup-input">
+                        <div class="signup-welcome">
                             <p class="signup-welcome-dis">Lets get started!!</p>
-                         </div>
-                         <form action="/" method="post">
-                            <input class="input-signup username" placeholder="Username" required  type="text">
+                        </div>
+                        <form action="/" method="post">
+                            <input class="input-signup username" placeholder="Username" required type="text">
                             <input class="input-signup email" placeholder="Enter E-mail" required type="email">
                             <input class="input-signup  pass" placeholder="**************" required type="password">
                             <input class="input-signup  job-title" placeholder="Student" required type="text">
                             <div class="ask-for-login">
-                                <p class="ask-for-login-dis">Already have a account ? <a class="login-optn">login</a></p>
+                                <p class="ask-for-login-dis">Already have a account ? <a class="login-optn">login</a>
+                                </p>
                             </div>
                             <button type="submit" class="signup-btn">Signup</button>
-                         </form>
-                         
-                       </div>
+                        </form>
+
                     </div>
-                    <div class="wallpaper">
-                      <div class="close"><i class="fas fa-xmark" id="cross-mark"></i></div>
-                      <img src="img/signuplogo.png" class="signup-logo">
-                    </div>
+                </div>
+                <div class="wallpaper">
+                    <div class="close"><i class="fas fa-xmark" id="cross-mark"></i></div>
+                    <img src="img/signuplogo.png" class="signup-logo">
                 </div>
             </div>
         </div>
-        <hr class="section-1">
-        <div class="stopwatch-section">
-          <div class="about-stopwatch">
+    </div>
+    <hr class="section-1">
+    <div class="stopwatch-section">
+        <div class="about-stopwatch">
             <p class="about-stopwatch-discrip">Measure Time period of your Activity</p>
             <p class="about-stopwatch-discrip-para">
-                Your time is very precious so please don't waste it and try to do something productive. This is an app that will calculate the time of your work. work may be study,coding,or anything..And it also track your previous record
-                We’ve found some of the top strategies you can implement to become more productive, but it’s important not to view these tips as hacks. There is no hack for becoming more productive; there are only new habits we can implement to try to be better, more efficient workers. By building in some of these habits, you’re taking the right steps toward becoming more productive.
+                Your time is very precious so please don't waste it and try to do something productive. This is an app
+                that will calculate the time of your work. work may be study,coding,or anything..And it also track your
+                previous record
+                We’ve found some of the top strategies you can implement to become more productive, but it’s important
+                not to view these tips as hacks. There is no hack for becoming more productive; there are only new
+                habits we can implement to try to be better, more efficient workers. By building in some of these
+                habits, you’re taking the right steps toward becoming more productive.
             </p>
             <button class="sw-link">Use Stopwatch</button>
             <div class="work-detail">
@@ -95,20 +132,20 @@
                 <p class="work-detail-head">Enter Work Details</p>
                 <p class="work-detail-subhead">Lets get startded!!</p>
                 <form action="/" method="post">
-                  <input type="text" placeholder="Enter name of the task" class="task swinput" required>
-                  <input type="text" placeholder="Goal (in minutes)" class="goal swinput " required>
-                  <button type="submit" class="swbtn">Next</button>
-                </form> 
-              </div>
-          </div>
-          <div class="stopwatch-pic">
-            <img src="img/sand-clock.png" class="sand-clock">
-          </div>
+                    <input type="text" placeholder="Enter name of the task" class="task swinput" required>
+                    <input type="text" placeholder="Goal (in minutes)" class="goal swinput " required>
+                    <button type="submit" class="swbtn">Next</button>
+                </form>
+            </div>
         </div>
+        <div class="stopwatch-pic">
+            <img src="img/sand-clock.png" class="sand-clock">
+        </div>
+    </div>
 
 
-        <script src="js/pro.js"></script>
-        
-    </body>
-    
+    <script src="js/pro.js"></script>
+
+</body>
+
 </html>
