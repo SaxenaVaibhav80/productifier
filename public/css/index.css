@@ -202,6 +202,7 @@
 }
 .stopwatch-section {
   display: flex;
+  gap:1rem
 }
 .sand-clock {
   height: 45rem;
@@ -271,8 +272,8 @@
 .swbtn {
   display: block;
   border-style: none;
-  padding: 0.5rem 1.3rem 0.5rem 1.3rem;
-  border-radius: 1rem;
+  padding: 0.5rem 1.3rem 0.6rem 1.3rem;
+  border-radius: .4rem .4rem 1rem 1rem;
   background-color: #7ea2b0;
   color: white;
   margin-top: 0.2rem;
