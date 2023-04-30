@@ -201,18 +201,21 @@
   border-bottom: 1rem dotted rgb(132, 143, 148);
   margin: 2rem 0rem 0rem 40rem;
 }
-.stopwatch-section {
+#stopwatch-section {
   display: flex;
   gap:1rem
 }
 .sand-clock {
-  height: 45rem;
+  height: 46rem;
   width: 45rem;
 }
 .about-stopwatch {
   margin-top: 15rem;
   margin-left: 10rem;
   width: 40%;
+}
+.about-stopwatch-discrip-para{
+ margin-bottom: 1rem;
 }
 .about-stopwatch-discrip {
   font-size: 1.8rem;
@@ -236,7 +239,7 @@
   /* border: 3px solid pink; */
 }
 .work-detail-div {
-  padding-top: 0.4rem;
+  padding-top: 0.56rem;
   border-top: 1px solid rgb(36, 106, 123);
   /* width: 19rem; */
   /* height: 14.1rem; */
@@ -282,7 +285,6 @@
   border-radius: .4rem 0rem 0rem 1rem;
   background-color: #7ea2b0;
   color: white;
-  margin-top: 0.2rem;
   text-align: center;
   width: 100%;
 }
@@ -300,4 +302,13 @@
 .clock-pic{
   height: 14.6rem;
   width: 16rem;
+}
+.section-2 {
+  border-style: none;
+  width: 17rem;
+  border-bottom: 1rem dotted rgb(160, 174, 181);
+  margin: 1.3rem 0rem 0rem 40rem;
+}
+a{
+  text-decoration: none;
 }
