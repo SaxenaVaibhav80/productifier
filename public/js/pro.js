@@ -1,33 +1,33 @@
-const a=document.getElementById("fitt")
-a.addEventListener("mouseover",function()
- {
-    document.getElementsByClassName("fitness-div")[0].style.visibility="visible";
-})
-const b=document.getElementsByClassName("fitness-div")[0];
-b.addEventListener("mouseover",function()
-{
-    document.getElementsByClassName("fitness-div")[0].style.visibility="visible";
-})
-b.addEventListener("mouseout",function()
-{
-    document.getElementsByClassName("fitness-div")[0].style.visibility="hidden";
-})
+// const a=document.getElementById("fitt")
+// a.addEventListener("mouseover",function()
+//  {
+//     document.getElementsByClassName("fitness-div")[0].style.visibility="visible";
+// })
+// const b=document.getElementsByClassName("fitness-div")[0];
+// b.addEventListener("mouseover",function()
+// {
+//     document.getElementsByClassName("fitness-div")[0].style.visibility="visible";
+// })
+// b.addEventListener("mouseout",function()
+// {
+//     document.getElementsByClassName("fitness-div")[0].style.visibility="hidden";
+// })
 
-const c=document.getElementById("boook")
-console.log(a)
-c.addEventListener("mouseover",function()
- {
-    document.getElementsByClassName("book-div")[0].style.visibility="visible";
-})
-const d=document.getElementsByClassName("book-div")[0];
-d.addEventListener("mouseover",function()
-{
-    document.getElementsByClassName("book-div")[0].style.visibility="visible";
-})
-d.addEventListener("mouseout",function()
-{
-    document.getElementsByClassName("book-div")[0].style.visibility="hidden";
-})
+// const c=document.getElementById("boook")
+// console.log(a)
+// c.addEventListener("mouseover",function()
+//  {
+//     document.getElementsByClassName("book-div")[0].style.visibility="visible";
+// })
+// const d=document.getElementsByClassName("book-div")[0];
+// d.addEventListener("mouseover",function()
+// {
+//     document.getElementsByClassName("book-div")[0].style.visibility="visible";
+// })
+// d.addEventListener("mouseout",function()
+// {
+//     document.getElementsByClassName("book-div")[0].style.visibility="hidden";
+// })
 
 $(".signup-box").hide();
 

@@ -19,12 +19,12 @@
 }
 .nav-bar-div1 {
   display: flex;
-  gap: 19rem;
+  gap: 11rem;
 }
 .nav-bar-list {
   display: flex;
   justify-content: space-between;
-  width: 60rem;
+  width: 66rem;
   margin-top: 2rem;
   margin-right: 2.5rem;
 }
@@ -48,7 +48,7 @@
   /* border: 1px solid red; */
   display: flex;
 }
-.fitness-div {
+/* .fitness-div {
   list-style: none;
   margin-left: 33rem;
   position: absolute;
@@ -60,8 +60,8 @@
   padding: 1rem 1rem 1rem 1rem;
   border-radius: 0.3rem;
   background-color: #ecf0f2;
-}
-.book-div {
+} */
+/* .book-div {
   list-style: none;
   position: absolute;
   margin-left: 70rem;
@@ -73,7 +73,7 @@
   padding: 1rem 1rem 1rem 1rem;
   border-radius: 0.3rem;
   background-color: #ecf0f2;
-}
+} */
 .optn-btn:hover {
   width: 10rem;
   color: #8baebb;
@@ -193,6 +193,7 @@
   position: absolute;
   right: 0.7rem;
   cursor: pointer;
+  opacity: 0.5;
 }
 .section-1 {
   border-style: none;
@@ -230,18 +231,23 @@
   width: 9rem;
   padding: 0.5rem;
 }
-
-.work-detail {
-  padding-top: 0.3rem;
+.work-detail{
+  display: flex;
+  /* border: 3px solid pink; */
+}
+.work-detail-div {
+  padding-top: 0.4rem;
   border-top: 1px solid rgb(36, 106, 123);
-  width: 19rem;
-  height: 14.1rem;
+  /* width: 19rem; */
+  /* height: 14.1rem; */
   /* border: 1px solid red; */
-  margin: 1rem 0rem 3rem 0rem;
-  border-radius: 1rem;
+  /* margin: 0rem 0rem 0rem 0rem; */
+  border-radius: 1rem 0rem 0rem 1rem ;
   text-align: center;
   background-color: rgb(36, 106, 123);
+  position: relative;
 }
+
 .work-detail-head {
   margin-top: 1rem;
   font-weight: 600;
@@ -273,7 +279,7 @@
   display: block;
   border-style: none;
   padding: 0.5rem 1.3rem 0.6rem 1.3rem;
-  border-radius: .4rem .4rem 1rem 1rem;
+  border-radius: .4rem 0rem 0rem 1rem;
   background-color: #7ea2b0;
   color: white;
   margin-top: 0.2rem;
@@ -282,6 +288,16 @@
 }
 .close-sw {
   position: absolute;
-  left: 27.3rem;
+  left: 36.2rem;
   cursor: pointer;
+  opacity: 0.4;
+}
+.clock-pic-div{
+  /* border: 1px solid red; */
+  height: 14.5rem;
+  width: 17rem;
+}
+.clock-pic{
+  height: 14.6rem;
+  width: 16rem;
 }
