@@ -13,6 +13,8 @@
 //     document.getElementsByClassName("fitness-div")[0].style.visibility="hidden";
 // })
 
+// const text = require("body-parser/lib/types/text");
+
 // const c=document.getElementById("boook")
 // console.log(a)
 // c.addEventListener("mouseover",function()
@@ -47,8 +49,6 @@ $(".close").click(function()
 })
 
 
-
-
 $(".work-detail").hide();
 
 $(".sw-link").click(function()
@@ -65,3 +65,4 @@ $(".close-sw").click(function()
     // $(".close").css("visibility","hidden")
     $(".about-stopwatch-discrip-para").fadeIn()
 })
+
