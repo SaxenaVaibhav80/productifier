@@ -209,11 +209,13 @@
   width: 52rem;
 }
 .about-stopwatch {
-  display: inline-block;
+  margin-top: 18rem;
   margin-left: 4rem;
   width: 40%;
-  position: relative;
-  bottom: 6rem;
+
+}
+#stopwatch-section{
+  display: flex;
 }
 .about-stopwatch-discrip-para {
   margin-bottom: 1rem;
@@ -237,8 +239,6 @@
 }
 .work-detail {
   display: flex;
-  position: relative;
-  bottom: 18rem;
   /* border: 3px solid pink; */
 }
 .work-detail-div {
