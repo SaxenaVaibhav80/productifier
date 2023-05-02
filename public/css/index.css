@@ -1,7 +1,7 @@
 * {
   margin: 0rem;
   /* font-family: "Rubik", sans-serif; */
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   letter-spacing: 0.1rem;
   line-height: 1.5rem;
@@ -203,7 +203,7 @@
 }
 #stopwatch-section {
   display: flex;
-  gap:1rem
+  gap: 1rem;
 }
 .sand-clock {
   height: 46rem;
@@ -214,11 +214,11 @@
   margin-left: 10rem;
   width: 40%;
 }
-.about-stopwatch-discrip-para{
- margin-bottom: 1rem;
+.about-stopwatch-discrip-para {
+  margin-bottom: 1rem;
 }
 .about-stopwatch-discrip {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 600;
   margin-bottom: 1.3rem;
   color: rgb(36, 106, 123);
@@ -234,7 +234,7 @@
   width: 9rem;
   padding: 0.5rem;
 }
-.work-detail{
+.work-detail {
   display: flex;
   /* border: 3px solid pink; */
 }
@@ -245,7 +245,7 @@
   /* height: 14.1rem; */
   /* border: 1px solid red; */
   /* margin: 0rem 0rem 0rem 0rem; */
-  border-radius: 1rem 0rem 0rem 1rem ;
+  border-radius: 1rem 0rem 0rem 1rem;
   text-align: center;
   background-color: rgb(36, 106, 123);
   position: relative;
@@ -282,7 +282,7 @@
   display: block;
   border-style: none;
   padding: 0.5rem 1.3rem 0.6rem 1.3rem;
-  border-radius: .4rem 0rem 0rem 1rem;
+  border-radius: 0.4rem 0rem 0rem 1rem;
   background-color: #7ea2b0;
   color: white;
   text-align: center;
@@ -294,12 +294,12 @@
   cursor: pointer;
   opacity: 0.4;
 }
-.clock-pic-div{
+.clock-pic-div {
   /* border: 1px solid red; */
   height: 14.5rem;
   width: 17rem;
 }
-.clock-pic{
+.clock-pic {
   height: 14.6rem;
   width: 16rem;
 }
@@ -309,6 +309,6 @@
   border-bottom: 1rem dotted rgb(160, 174, 181);
   margin: 1.3rem 0rem 0rem 40rem;
 }
-a{
+a {
   text-decoration: none;
 }
