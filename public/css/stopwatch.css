@@ -84,7 +84,7 @@
   margin-left: 16rem;
   height: 17rem;
   width: 28rem;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   border-radius: 1.3rem;
 }
 .sw-measure{
@@ -97,7 +97,7 @@
 
 }
 .start{
-  width:9rem;
+  width:6rem;
   height: 3.5rem;
   border-radius: 0rem  0rem 0rem 1.3rem;
   background-color: rgb(59 80 90);
@@ -117,7 +117,16 @@
   cursor: pointer;
 }
 .pause{
-  width:9rem;
+  width:7rem;
+  height: 3.5rem;
+  background-color: rgb(59 80 90);
+  color: white;
+  font-weight: 400;
+  border-style:none ;
+  cursor: pointer;
+}
+.end{
+  width:4.6rem;
   height: 3.5rem;
   background-color: rgb(59 80 90);
   color: white;
@@ -133,6 +142,7 @@
   margin-top: 3rem;
   width: 10rem;
   height: 9.5;
+ 
 }
 .msg-hr{
   width: 36.3rem;
@@ -143,4 +153,13 @@
 }
 .msg-n-line{
   display: inline-block;
+  color: #2b423d;
+}
+.save-data{
+  border-style: none;
+  background-color: white;
+  margin-top: 1rem;
+  margin-left: .5rem;
+  color: #5d7671;
+  text-decoration-line: underline;
 }

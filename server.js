@@ -22,7 +22,7 @@ app.get("/", (req, res) => {
   res.sendFile(__dirname + "/index.html");
 });
 app.get("/stopwatch", (req, res) => {
-  res.render("stopwatch", { userName: name });
+  res.render("stopwatch.hbs", { userName: name });
 });
 
 app.post("/", function (req, res) {
