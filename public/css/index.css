@@ -201,21 +201,22 @@
   border-bottom: 1rem dotted rgb(132, 143, 148);
   margin: 2rem 0rem 0rem 40rem;
 }
-.stopwatch-pic{
-  display:inline-block
+.stopwatch-pic {
+  display: inline-block;
 }
 .sand-clock {
-  height: 46rem;
-  width: 52rem;
+  /* height: 46rem;
+  width: 52rem; */
+  width: 100%;
 }
 .about-stopwatch {
-  margin-top: 18rem;
   margin-left: 4rem;
-  width: 40%;
-
+  width: 100%;
 }
-#stopwatch-section{
+#stopwatch-section {
   display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
 }
 .about-stopwatch-discrip-para {
   margin-bottom: 1rem;
