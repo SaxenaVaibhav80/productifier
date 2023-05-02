@@ -23,7 +23,7 @@ app.get("/", (req,res)=>
 {
    res.sendFile(__dirname+"/index.html")
 })
-app.get("/stopwatch", useMiddleware,(req,res)=>
+app.get("/stopwatch",(req,res)=>
 {
    
    res.render("stopwatch.hbs",{userName:name})
