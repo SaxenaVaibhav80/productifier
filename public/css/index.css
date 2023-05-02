@@ -203,7 +203,7 @@
 }
 #stopwatch-section {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
 }
 .sand-clock {
   height: 46rem;
@@ -211,7 +211,7 @@
 }
 .about-stopwatch {
   margin-top: 15rem;
-  margin-left: 6rem;
+  margin-left: 4rem;
   width: 40%;
 }
 .about-stopwatch-discrip-para {
