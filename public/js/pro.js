@@ -56,6 +56,7 @@ $(".sw-link").click(function()
     $(".work-detail").slideDown();
     $(".close-sw").css("visibility","visible")
     $(".about-stopwatch-discrip-para").fadeOut()
+    $(".about-stopwatch-discrip").fadeOut()
 })
 
 $(".close-sw").click(function()
@@ -64,5 +65,6 @@ $(".close-sw").click(function()
     $(".sw-link").css("visibility","visible")
     // $(".close").css("visibility","hidden")
     $(".about-stopwatch-discrip-para").fadeIn()
+    $(".about-stopwatch-discrip").fadeIn()
 })
 
