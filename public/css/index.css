@@ -318,7 +318,7 @@ a {
   text-decoration: none;
 }
 
-
+/* ------------------------------------------------------------------------ABOUT YOGA----------------------------------------------- */
 .about-yoga{
   margin-top: 9rem;
   margin-left: 2rem;
@@ -365,7 +365,7 @@ a {
   width: 43rem;
   margin-left: .5rem;
 }
-
+/* ------------------------------------------------ABOUT MEDITATION------------------------------------------ ---------------------------------*/
 .about-medi{
   margin-top: 9rem;
   margin-left: 6rem;
@@ -413,9 +413,57 @@ a {
   width: 43rem;
   margin-left: .5rem;
 }
+
+/* ------------------------------------------WORKOUT SECTION---------------------------------------------------------------- */
+.about-WO{
+  margin-top: 9rem;
+  margin-left: 2rem;
+  width: 45%
+}
+#WO-section {
+  margin-top: 6em;
+  display: flex;
+  margin-bottom: 4rem;
+}
+.about-WO-discrip-para {
+  margin-bottom: 1rem;
+}
+.about-WO-discrip-para2 {
+  margin-bottom: 1rem;
+}
+.about-WO-discrip {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1.3rem;
+  color:rgb(70,105,105);
+  width: 100%;
+  line-height: 1.4rem;
+}
+.WO-link {
+  display: block;
+  border-style: none;
+  border-radius: 0.4rem;
+  background-color: rgb(31,132,140);
+  color: white;
+  margin-top: 1.3rem;
+  text-align: center;
+  width: 9rem;
+  padding: 0.5rem;
+}
+.WO-detail {
+  display: flex;
+
+  /* border: 3px solid pink; */
+}
+.WO{
+  margin-top: 4rem;
+  height: 39rem;
+  width: 43rem;
+  margin-left: .5rem;
+}
 .section-4 {
   border-style: none;
   width: 17rem;
   border-bottom: 1rem dotted rgb(194, 202, 207);
-  margin: 0rem 0rem 0rem 40rem;
+  margin: 8rem 0rem 0rem 40rem;
 }
