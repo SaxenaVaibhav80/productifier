@@ -177,6 +177,8 @@
 }
 .input-signup::placeholder {
   color: white;
+  opacity: .7;
+  font-weight: 200;
 }
 .signup-btn {
   width: 14.5rem;
@@ -282,6 +284,9 @@
 }
 .swinput::placeholder {
   color: white;
+  opacity: .7;
+  font-weight: 300;
+
 }
 .swbtn {
   display: block;
@@ -330,8 +335,9 @@ a {
   display: flex;
   /* margin-top: 3rem; */
   /* justify-content: space-between; */
-  background-image: linear-gradient(to bottom, #ffffff , #b1cdcd);
-  /* background-image: linear-gradient(to bottom, #f8f8fd 3%, #d3d8ff 28%); */
+  /* background-image: linear-gradient(to bottom, #ffffff , #b1cdcd); */
+  background-image: linear-gradient(to bottom, #ffffff ,  #bde2e2);
+  
 }
 .about-yoga-discrip-para {
   margin-bottom: 1rem;
@@ -367,7 +373,7 @@ a {
 }
 /* ------------------------------------------------ABOUT MEDITATION------------------------------------------ ---------------------------------*/
 .about-medi{
-  margin-top: 9rem;
+  /* margin-top: 9rem; */
   margin-left: 6rem;
   width: 45%
 }
@@ -376,8 +382,9 @@ a {
   display: flex;
   /* margin-top: 3rem; */
   /* justify-content: space-between; */
-  background-image: linear-gradient(to top, #ffffff , #b1cdcd);
-  /* background-image: linear-gradient(to bottom, #f8f8fd 3%, #d3d8ff 28%); */
+  /* background-image: linear-gradient(to top, #ffffff , #b1cdcd); */
+  background-image: linear-gradient(to top, #ffffff , #bde2e2);
+ 
   margin-bottom: 4rem;
 }
 .about-medi-discrip-para {
@@ -408,12 +415,15 @@ a {
   /* border: 3px solid pink; */
 }
 .medi{
-  margin-top: 7rem;
+  /* margin-top: 7rem; */
   height: 29rem;
   width: 43rem;
   margin-left: .5rem;
 }
-
+.med-yoga{
+  height: 6rem;
+  background-color: #bde2e2;
+}
 /* ------------------------------------------WORKOUT SECTION---------------------------------------------------------------- */
 .about-WO{
   margin-top: 9rem;
@@ -421,7 +431,7 @@ a {
   width: 45%
 }
 #WO-section {
-  margin-top: 6em;
+  margin-top: 4em;
   display: flex;
   margin-bottom: 4rem;
 }
@@ -465,5 +475,5 @@ a {
   border-style: none;
   width: 17rem;
   border-bottom: 1rem dotted rgb(194, 202, 207);
-  margin: 8rem 0rem 0rem 40rem;
+  margin: 5rem 0rem 0rem 40rem;
 }
