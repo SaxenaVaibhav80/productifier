@@ -198,7 +198,7 @@
 .section-1 {
   border-style: none;
   width: 17rem;
-  border-bottom: 1rem dotted rgb(132, 143, 148);
+  border-bottom: 1rem dotted rgb(196, 206, 210);
   margin: 2rem 0rem 0rem 40rem;
 }
 .stopwatch-pic {
@@ -308,10 +308,10 @@
   height: 14.6rem;
   width: 16rem;
 }
-.section-2 {
+.section-3 {
   border-style: none;
   width: 17rem;
-  border-bottom: 1rem dotted rgb(160, 174, 181);
+  border-bottom: 1rem dotted rgb(194, 202, 207);
   margin: 0rem 0rem 0rem 40rem;
 }
 a {
@@ -320,14 +320,18 @@ a {
 
 
 .about-yoga{
-  margin-top: 5rem;
-  margin-left: 4rem;
+  margin-top: 9rem;
+  margin-left: 2rem;
   width: 45%
 }
 #yoga-section {
+  margin-top: 3em;
+  /* padding-bottom:6rem ; */
   display: flex;
-  align-items: center;
+  /* margin-top: 3rem; */
   /* justify-content: space-between; */
+  background-image: linear-gradient(to bottom, #ffffff , #b1cdcd);
+  /* background-image: linear-gradient(to bottom, #f8f8fd 3%, #d3d8ff 28%); */
 }
 .about-yoga-discrip-para {
   margin-bottom: 1rem;
@@ -336,7 +340,9 @@ a {
   font-size: 1.6rem;
   font-weight: 600;
   margin-bottom: 1.3rem;
-  color:rgb(95, 194, 221)
+  color:rgb(70,105,105);
+  width: 100%;
+  line-height: 1.4rem;
 }
 .yoga-link {
   display: block;
@@ -354,29 +360,62 @@ a {
 
   /* border: 3px solid pink; */
 }
-.yoga-detail-div {
-  padding-top: 0.56rem;
-  border-top: 1px solid rgb(36, 106, 123);
-  /* width: 19rem; */
-  /* height: 14.1rem; */
-  /* border: 1px solid red; */
-  /* margin: 0rem 0rem 0rem 0rem; */
-  border-radius: 1rem 0rem 0rem 1rem;
-  text-align: center;
-  background-color: rgb(36, 106, 123);
-  position: relative;
-}
-
-
-.close-sw {
-  position: absolute;
-  left: 36.2rem;
-  cursor: pointer;
-  opacity: 0.4;
-}
-
 .yoga{
   height: 42rem;
   width: 43rem;
-  margin-left: 1rem;
+  margin-left: .5rem;
+}
+
+.about-medi{
+  margin-top: 9rem;
+  margin-left: 6rem;
+  width: 45%
+}
+#medi-section {
+  /* margin-top: 3em; */
+  display: flex;
+  /* margin-top: 3rem; */
+  /* justify-content: space-between; */
+  background-image: linear-gradient(to top, #ffffff , #b1cdcd);
+  /* background-image: linear-gradient(to bottom, #f8f8fd 3%, #d3d8ff 28%); */
+  margin-bottom: 4rem;
+}
+.about-medi-discrip-para {
+  margin-bottom: 1rem;
+}
+.about-medi-discrip {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1.3rem;
+  color:rgb(70,105,105);
+  width: 100%;
+  line-height: 1.4rem;
+}
+.medi-link {
+  display: block;
+  border-style: none;
+  border-radius: 0.4rem;
+  background-color: rgb(31,132,140);
+  color: white;
+  margin-top: 1.3rem;
+  text-align: center;
+  width: 9rem;
+  padding: 0.5rem;
+}
+.medi-detail {
+  display: flex;
+
+  /* border: 3px solid pink; */
+}
+.medi{
+  margin-top: 7rem;
+  height: 29rem;
+  width: 43rem;
+  margin-left: .5rem;
+}
+.section-4 {
+  border-style: none;
+  width: 17rem;
+  border-bottom: 1rem dotted rgb(194, 202, 207);
+  margin: 0rem 0rem 0rem 40rem;
 }

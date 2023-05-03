@@ -95,9 +95,9 @@
                             <p class="signup-welcome-dis">Lets get started!!</p>
                         </div>
                         <form action="/" method="post">
-                            <input class="input-signup username" placeholder="Username" required type="text" name="user" id="user-name">
+                            <input class="input-signup username" placeholder="Username" required type="text" name="user" id="user-name" >
                             <input class="input-signup email" placeholder="Enter E-mail" required type="email" >
-                            <input class="input-signup  pass" placeholder="**************" required type="password" autocomplete="on">
+                            <input class="input-signup  pass" placeholder="**************" required type="password" autocomplete="on" >
                             <input class="input-signup  job-title" placeholder="Student" required type="text">
                             <div class="ask-for-login">
                                 <p class="ask-for-login-dis">Already have a account ? <a class="login-optn">login</a>
@@ -135,9 +135,9 @@
                     <div class="close-sw"><i class="fas fa-xmark" id="cross-mark"></i></div>
                     <p class="work-detail-head">Enter Work Details</p>
                     <p class="work-detail-subhead">Lets get startded!!</p>
-                    <form action="/" method="post">
-                        <input type="text" placeholder="Enter name of the task" class="task swinput" name="task">
-                        <input type="text" placeholder="Goal (in minutes)" class="goal swinput " name="goal">
+                    <form action="/stopwatch" method="post">
+                        <input type="text" placeholder="Enter name of the task" class="task swinput" name="task" required autocomplete="off"> 
+                        <input type="text" placeholder="Goal (in minutes)" class="goal swinput " name="goal" required autocomplete="off">
                         <button type="submit" class="swbtn">Next</button>
                     </form>
                 </div>
@@ -151,19 +151,32 @@
         </div>
     </div>
 
-    <hr class="section-2">
+    <hr class="section-3">
 
     <div id="yoga-section">
-        <img src="img/yogapic.jpg" class="yoga">
+        <img src="img/yogapic2.png" class="yoga">
         <div class="about-yoga">
             <p class="about-yoga-discrip">Yoga : A way to improve strength & confidence</p>
             <p class="about-yoga-discrip-para">
-                HELLO xyz you are still giving bad effect to your health by doing such a nonsence activities.....WAIT!! Try our yoga section which will keep you healthy and fit The beauty of yoga is that you don’t have to be a yogi or yogini to reap the benefits. Whether you are young or old, overweight or fit, yoga has the power to calm the mind and strengthen the body. Don’t be intimidated by yoga terminology, fancy yoga studios and complicated poses. Yoga is for everyone.
+                Heyyy!! you are still giving bad effect to your health by doing such a nonsence activities.....WAIT!! Try our yoga section which will keep you healthy and fit The beauty of yoga is that you don’t have to be a yogi or yogini to reap the benefits. Whether you are young or old, overweight or fit, yoga has the power to calm the mind and strengthen the body. Don’t be intimidated by yoga terminology, fancy yoga studios and complicated poses. Yoga is for everyone.
             </p>
+            <p><strong>NOTE :</strong> Yoga and meditation both are different things,Every beginner thinks that both yoga and meditation are the same.</p>
             <button class="yoga-link">Start Yoga</button>
         </div>
     </div>
+    <div id="medi-section">
+        <div class="about-medi">
+            <p class="about-medi-discrip">Meditation : The act of mediating</p>
+            <p class="about-medi-discrip-para">
+                Meditation is a practice that involves focusing or clearing your mind using a combination of mental and physical techniques.
 
+                Depending on the type of meditation you choose, you can meditate to relax, reduce anxiety and stress, and more. Some people even use meditation to help them improve their health, such as using it to help adapt to the challenges of quitting bad habbits
+            </p>
+            <p><strong>NOTE :</strong> Yoga and meditation both are different things,Every beginner thinks that both yoga and meditation are the same.</p>
+            <button class="medi-link">Start </button>
+        </div>
+        <img src="img/medi.png" class="medi">
+    </div>
     <script src="js/pro.js"></script>
 
 </body>
