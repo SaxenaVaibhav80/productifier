@@ -67,4 +67,3 @@ $(".close-sw").click(function()
     $(".about-stopwatch-discrip-para").fadeIn()
     $(".about-stopwatch-discrip").fadeIn()
 })
-
