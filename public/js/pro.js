@@ -67,3 +67,13 @@ $(".close-sw").click(function()
     $(".about-stopwatch-discrip-para").fadeIn()
     $(".about-stopwatch-discrip").fadeIn()
 })
+
+
+$(document).ready(function(){
+    $(".todays").click(function(){
+        $(".msg-div").animate({
+            width: 'toggle'
+        });
+    });
+  });
+
