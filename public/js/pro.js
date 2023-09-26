@@ -77,3 +77,11 @@ $(document).ready(function(){
     });
   });
 
+$(document).ready(function(){
+    $(".riddle-pic").click(function(){
+        $(".riddle-div").animate({
+            width: 'toggle'
+        });
+    });
+  });
+

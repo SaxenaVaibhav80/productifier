@@ -191,31 +191,44 @@ footer {
   color: #3a606e;
   font-size: 4.7rem;
 }
-.msg{
+.msg,.riddle{
   /* border: 1px solid red; */
-
+ margin-top: 1rem;
   width: 55rem;
   display: flex;
-  overflow: hidden;
+  /* overflow: hidden; */
  
 }
-.msg-div{
-   margin-top: 11rem;
+.msg-div,.riddle-div{
+   /* margin-top: 11rem; */
   /* border: 1px solid green; */
   display: none;
-  overflow: hidden;
+  /* overflow: hidden; */
   height: 4.8rem;
 }
-.msg-para{
+.msg-para,.riddle-para{
   color: #3a606e;
   line-height: 2rem;
 }
 .todays{
   width: 10.4rem;
   height: 7rem;
-  margin-top: 11rem;
+  /* margin-top: 11rem; */
+}
+.riddle-pic{
+  width: 10.4rem;
+  height: 9.3rem;
 }
 a{
-  text-decoration: none;
-  
+  text-decoration: none; 
+}
+.ans{
+  border-style: none;
+  background-color:#3a606e;
+  border-radius: 0.2rem;
+  width: 5rem;
+  padding: 0rem;
+  font-size: 1.2rem;
+  min-height: 2rem;
+  margin-left: 1rem;
 }
