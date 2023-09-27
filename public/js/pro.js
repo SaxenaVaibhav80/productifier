@@ -69,13 +69,13 @@ $(".close-sw").click(function()
 })
 
 
-$(document).ready(function(){
-    $(".todays").click(function(){
-        $(".msg-div").animate({
-            width: 'toggle'
-        });
-    });
-  });
+// $(document).ready(function(){
+//     $(".todays").click(function(){
+//         $(".msg-div").animate({
+//             width: 'toggle'
+//         });
+//     });
+//   });
 
 $(document).ready(function(){
     $(".riddle-pic").click(function(){
@@ -85,3 +85,8 @@ $(document).ready(function(){
     });
   });
 
+$('.ans').click(function()
+{
+    $('.ans').hide();
+    $(".ans2").css("visibility","visible")
+})

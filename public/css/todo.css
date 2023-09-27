@@ -193,7 +193,7 @@ footer {
 }
 .msg,.riddle{
   /* border: 1px solid red; */
- margin-top: 1rem;
+ margin-top: 9rem;
   width: 55rem;
   display: flex;
   /* overflow: hidden; */
@@ -231,4 +231,7 @@ a{
   font-size: 1.2rem;
   min-height: 2rem;
   margin-left: 1rem;
+}
+.ans2{
+  visibility: hidden;
 }
